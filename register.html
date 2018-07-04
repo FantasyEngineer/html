@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>注册页面</title>
+    <link rel="stylesheet" href="css/register.css">
+  </head>
+  <body>
+    <div id="main">
+       <div id="small">跳过</div>
+       <div id="hello">HELLO</div>
+       <div id="first">初次见面</div>
+       <div id="user">尊敬的<span id="name"></span></div>
+       <div id="second">请填写手机号码</div>
+       <div id="third">完成仪器注册质保</div>
+       <div id="tel">
+           <div id="text">
+                <span id="num">+86</span>
+                <img src="img/icon1.png"/>
+           </div>
+           <div id="input">
+                <input id="phone" type="tel" placeholder="请输入手机号码" name="telephone"/>
+           </div>
+       </div>
+       <a id="next" target="_top">下一步</a>
+       <div id="content">
+          <div id="head"></div>
+          <div id="sel">请选择电话区号</div>
+             <table id="tbl">
+                <tr data-id="+86">
+                  <td>中国   +86</td>
+                  <td><span>√</span></td>
+                </tr>
+                <tr data-id="+886"> 
+                  <td>中国台湾   +886</td>
+                  <td><span>√</span></td>
+                </tr>
+                <tr data-id="+852">
+                  <td>中国香港   +852</td>
+                  <td><span>√</span></td>
+                </tr>
+                <tr data-id="+853">
+                  <td>中国澳门   +853</td>
+                  <td><span>√</span></td>
+                </tr>
+              </table>
+        </div>
+    </div>
+   <script src="http://code.jquery.com/jquery-latest.js"></script>
+   <script src="js/register.js"></script>
+  </body>
+</html>
